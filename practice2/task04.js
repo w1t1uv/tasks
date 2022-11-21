@@ -1,3 +1,7 @@
+// 04-is-empty
+// * Task description: Write a method that makes a shallow check is object empty
+// * Expected Result: ({}) => true, ({ a: undefined }) => true, ({ a: 1 }) => false
+
 let isEmpty = (obj) => {
 	let objectKeys = Object.keys(obj);
 	if (objectKeys.length === 0) {

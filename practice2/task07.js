@@ -1,3 +1,7 @@
+// 07-is-empty-deep
+// * Task description: Write a method that makes a deep check is an object empty
+// * Empty values: '', null, NaN, undefined, [], {}
+
 let deepCheck = (item) => {
 	if (item === null) {
 		return true;

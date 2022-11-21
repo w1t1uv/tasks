@@ -1,3 +1,7 @@
+// 08-is-equal-deep
+// * Task description: Write a method that makes a deep compare of two objects
+// * Expected Result: True if objects are equal, false if objects are different ({ a: 1, b: { c: 1 } }, { a: 1, b: { c: 1 } }) => true
+
 let deepCompare = (obj1, obj2) => {
 	let obj1Keys = Object.keys(obj1);
 	let obj2Keys = Object.keys(obj2);

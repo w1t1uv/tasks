@@ -1,3 +1,7 @@
+// 10-intersection-deep
+// * Task description: Write a method that finds all intersections of objects
+// * Expected Result: ({ a: 1, b: { c: 3 } }, { c: 1, b: { c: 3 } }) => { b: { c: 3 } }
+
 let deepIntersection = (obj1, obj2) => {
 	let obj1Keys = Object.keys(obj1);
 

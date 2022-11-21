@@ -1,3 +1,7 @@
+// 09-chunk
+// * Task description: Write a method that splits an array into parts of determined size
+// * Expected Result: ([1, 2, 3, 4, 5], 2) => [[1, 2], [3, 4], [5]]
+
 function chunk(arr, chunkSize) {
 	let result = [];
 
